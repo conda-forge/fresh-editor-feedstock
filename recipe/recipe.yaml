@@ -10,11 +10,11 @@ source:
   sha256: 25d46e7209ca731d42661b3be68c25e42e4ebff06a156d15ddf5ddaf4a510bc5
 
 build:
-  number: 0
+  number: 1
   script:
     env:
       CARGO_PROFILE_RELEASE_STRIP: symbols
-      CARGO_PROFILE_RELEASE_LTO: false
+      CARGO_PROFILE_RELEASE_LTO: fat
     content:
       - if: unix
         then:
