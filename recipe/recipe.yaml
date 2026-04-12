@@ -1,5 +1,5 @@
 context:
-  version: "0.2.22"
+  version: "0.2.23"
 
 package:
   name: fresh-editor
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://github.com/sinelaw/fresh/archive/refs/tags/v${{ version }}.tar.gz
-  sha256: 0e4b7ea378cd8665bf94d2da021eeb983f25af34971236e2ec7a97d3884fa8ac
+  sha256: 38d74be24e527aa9870f7f46e0d52699a5ec09c608288deb26e8e46054f9fecb
 
 build:
   number: 0
